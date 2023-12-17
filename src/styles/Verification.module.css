@@ -1,9 +1,9 @@
 .container {
   position: absolute;
   left: 50%;
-  transform: translate(-50%, 80%);
-  padding: 30px 8dvw;
-  width: 50%;
+  transform: translate(-50%, 34%);
+  padding: 7dvh 6dvw;
+  width: 48%;
   background-color: #1b1320;
   border-radius: 14px;
 }
@@ -12,6 +12,8 @@
   text-align: center;
   font-size: 26px;
   color: #fefcfe;
+  margin-bottom: 3vh;
+  padding-left: 0.2dvw;
 }
 
 .body {
@@ -34,6 +36,14 @@
     rgba(9, 7, 12, 1) 60%,
     rgba(9, 7, 12, 1) 90%
   );
+}
+
+.email_text {
+  color: #cec9d0;
+  font-weight: bold;
+  text-align: right;
+  margin-top: 9vh;
+  padding-right: 2.1vw;
 }
 
 /* MOBILE */
