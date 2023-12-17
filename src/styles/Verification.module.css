@@ -1,9 +1,10 @@
 .container {
   position: absolute;
   left: 50%;
-  transform: translate(-50%, 34%);
+  transform: translate(-50%, 32%);
   padding: 7dvh 6dvw;
-  width: 48%;
+  width: 48vw;
+  min-width: 400px;
   background-color: #1b1320;
   border-radius: 14px;
 }
